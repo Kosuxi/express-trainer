@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>表达力训练营 · 开口就赢</title>
+<meta name="theme-color" content="#4f46e5">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="表达力训练">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎙️</text></svg>">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="css/style.css?v=1.2.2">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/home">
+      <span class="brand-logo">🎙️</span>
+      <span class="brand-name">表达力训练营</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#/home" data-route="home">首页</a>
+      <a href="#/warmup" data-route="warmup">朗读热身</a>
+      <a href="#/express" data-route="express">条理表达</a>
+      <a href="#/retell" data-route="retell">复述训练</a>
+      <a href="#/persuade" data-route="persuade">临场说服</a>
+      <button class="theme-btn" id="theme-toggle" title="切换深色 / 浅色模式">🌙</button>
+    </nav>
+  </div>
+</header>
+<main id="view-root" class="view-root"></main>
+<footer class="footer">
+  推荐使用 Chrome / Edge 浏览器 · 语音识别与数据分析均在本地浏览器完成 · 训练记录仅保存在你的设备上
+</footer>
+<div id="toast-root"></div>
+
+<script src="js/data.js?v=1.2.2"></script>
+<script src="js/content.js?v=1.2.2"></script>
+<script src="js/speech.js?v=1.2.2"></script>
+<script src="js/analyzer.js?v=1.2.2"></script>
+<script src="js/app.js?v=1.2.2"></script>
+<script src="js/warmup.js?v=1.2.2"></script>
+<script src="js/express.js?v=1.2.2"></script>
+<script src="js/retell.js?v=1.2.2"></script>
+<script src="js/persuade.js?v=1.2.2"></script>
+<script>App.init();</script>
+</body>
+</html>
